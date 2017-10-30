@@ -2,5 +2,5 @@ package implementacao;
 
 public interface TipoEntrega {
 
-	public double calcularEntrega();
+	public double calcularEntrega(double precoTotalDoPedido);
 }
